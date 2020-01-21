@@ -7,7 +7,8 @@ const api = require('./server/routes/api')
 
 // Mongoose setup
 const mongoose = require('mongoose')
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true })
+mongoose.connect('mongodb://localhost/CRM-DB',
+    { useNewUrlParser: true })
     .then(() => console.log("DB is connected"))
 
 app.use(bodyParser.json())
@@ -24,7 +25,7 @@ app.use(function (req, res, next) {
 
 app.use('/', api)
 
-const port = process.env.PORT 
+const port = process.env.PORT || 4200
 app.listen(port, function () {
     console.log(`Running on port ${port}`)
 })
