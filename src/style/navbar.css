@@ -1,0 +1,42 @@
+#navbar {
+    /* background-color: rgb(19, 18, 18); */
+    background-color: #333333;
+    height: 50px;
+}
+
+#logo {
+    float: left;
+    color: white;
+    margin-left: 10px;
+    font-size: 150%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    text-shadow: 2px 1px 2px #086788;
+}
+
+#nav-buttons {
+    float: right;
+    height: 100%;
+}
+
+.nav-button {
+    float: left;
+    color: white;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+}
+
+.nav-button:hover {
+    /* background-color: rgb(44, 44, 44); */
+    background-color: #086788;
+}
+
+.current-page {
+    /* background-color: rgb(44, 44, 44); */
+    background-color: #086788;
+}

@@ -1,0 +1,152 @@
+#clients {
+    display: grid;
+    justify-content: center
+}
+
+#table {
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+#table-header {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr) 1fr 1fr 2fr;
+    align-content: center;
+    padding: 4px;
+    height: 30px;
+    background-color: #086788;
+    color: white;
+    box-shadow: 1px 2px 2px rgb(66, 65, 65);
+    margin-bottom: 3px;
+}
+
+#clientsFilter {
+    display: grid;
+    grid-template-columns: 2fr 2fr 7fr 1fr 1fr 1fr;
+    padding: 20px 50px;
+    grid-template-areas: "i s . p c n";
+    height: 25px;
+    color: #333333;
+}
+
+#pop-up-container {
+    background-color: rgba(0, 0, 0, 0.404);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#update {
+    font-size: 80%;
+    text-align: center;
+    background-color: #333333;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding: 10px;
+    color: rgb(190, 190, 190);
+    border-radius: 1%;
+}
+
+.close-popup {
+    display: grid;
+    align-content: center;
+    position: absolute;
+    padding-bottom: 2px;
+    width: 15px;
+    height: 15px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+#update input {
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.popup-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 20px 10px 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.submit {
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-bottom-right-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(2, 1, 24);
+    background-color: #086788;
+    margin: 15px 30%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submit:active {
+    background-color: rgb(46, 66, 83);
+}
+
+.btn {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#p, #n, #current-page {
+    display: grid;
+    align-content: center;
+}
+
+#p {
+    grid-area: p;
+    justify-content: left;
+}
+
+#n {
+    grid-area: n;
+    justify-content: right;
+}
+
+#current-page {
+    grid-area: c;
+    justify-content: center;
+}
+
+#text-input, #category-select {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+
+#category-select {
+    margin-left: 5px;
+    grid-area: s;
+}
+
+#text-input {
+    padding-left: 5px;
+    grid-area: i;
+}
+
+.table-row {
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(4, 2fr) 1fr 1fr 2fr;
+    border-bottom: 1px solid rgb(180, 178, 178);
+    cursor: pointer;
+    font-size: 80%;
+}
+
+.row-col {
+    padding: 5px;
+    text-align: center;
+}

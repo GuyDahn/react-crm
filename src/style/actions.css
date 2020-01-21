@@ -1,0 +1,97 @@
+#actions {
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-areas: "." ".";
+}
+
+.action-section {
+    max-width: 650px;
+    font-size: 70%;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 3px rgb(19, 18, 18);
+}
+
+#action-client-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    align-content: center;
+    padding: 5px;
+    font-size: 150%;
+    margin-bottom: 25px;
+}
+
+#clientInput {
+    align-self: center;
+    padding: 3px;
+    height: 80%
+}
+
+#action-update {
+    padding: 0 50px;
+}
+
+.action-update-input {
+    display: grid;
+    grid-template-areas: ". s b";
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 15px
+}
+
+.label {
+    /* grid-area: l; */
+    font-size: 120%;
+}
+
+.action-update-input>select {
+    grid-area: s;
+    justify-self: center;
+    width: 170px;
+}
+
+#declare-sale {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template: "l . b ";
+    grid-gap: 20px;
+}
+
+#add-client-container {
+    padding: 0 50px;
+    padding-right: 30%;
+}
+
+.text-input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    margin-top: 25px;
+    display: grid;
+    justify-content: center;
+}
+
+.button {
+    background-color: #086788;
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    justify-self: end;
+    min-width: 150px;
+    padding: 5px 0px;
+    border-bottom-right-radius: 5px;
+}
+
+.button:active {
+    background-color: rgb(46, 66, 83);
+}

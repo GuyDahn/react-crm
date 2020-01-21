@@ -1,0 +1,115 @@
+#analytics {
+    /* height: 100vh; */
+    display: grid;
+    grid-template-areas: "b" "c";
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+#badges {
+    grid-area: b;
+    display: grid;
+    max-height: 150px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.badge-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.badge {
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    color: white;
+    font-size: 200%;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-shadow: 1px 2px 2px rgb(63, 62, 62);
+}
+
+.badge-info {
+    grid-area: i;
+    font-size: 250%;
+}
+
+.badge-label {
+    grid-area: n;
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.info-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "i" "n";
+}
+
+#new-client {
+    background-color: #086788;
+    /* background-color: rgb(79, 155, 79); */
+}
+
+#email-sent {
+    background-color: #086788;
+    /* background-color: rgb(66, 127, 143); */
+}
+
+#outstanding-client {
+    background-color: #086788;
+    /* background-color: rgb(165, 42, 42); */
+}
+
+#hottest-country {
+    background-color: #086788;
+    /* background-color: rgb(255, 196, 0); */
+}
+
+#charts {
+    grid-area: c;
+    display: grid;
+    grid-template-areas: "c c t" " a p p";
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.chart-container {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 40px;
+    font-size: 80%;
+}
+
+.chart-table {
+    text-align: center;
+}
+
+#salesBy {
+    grid-area: c;
+}
+
+#salesBy select {
+    font: inherit;
+    color: inherit;
+    margin-left: 5px;
+    border: none;
+    background: none;
+}
+
+#​TopEmployees {
+    grid-area: t;
+}
+
+#past30Sales {
+    grid-area: p;
+}
+
+#clientAcquisition {
+    grid-area: a;
+}
