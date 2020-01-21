@@ -14,7 +14,6 @@ class Home extends Component {
         return (
             <div id="home">
                 <h1>Good {greeting} !</h1>
-
                 <div className="sk-folding-cube">
                     <div className="sk-cube1 sk-cube"></div>
                     <div className="sk-cube2 sk-cube"></div>
