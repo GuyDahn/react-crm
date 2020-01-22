@@ -5,10 +5,8 @@
   - [Screenshots](#screenshots)
     - [Home](#select-user)
     - [Client List](#client-list)
-    - [Search Filter](#search-filter)
-    - [Rented Movies](#rented-movies)
-    - [Movie Details](#movie-details)
-    - [Mobile Responsive](#mobile-responsive)
+    - [Add or Update Client](#add-or-update-clients)
+    - [ Analytics Dashboard](#analytics-dashboard)
   - [Techstack](#tech-stack)
   - [TODO](#todo)
 
@@ -52,7 +50,6 @@ Fill out the inputs and then click add or update to add a new client. When addin
 View a report of all the metrics regarding your clients.
 
 <img align="center"><img src="assets/Analytics.JPG" width="600" />
-
 
 ## Techstack
 - React.JS
