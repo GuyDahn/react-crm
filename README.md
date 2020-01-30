@@ -12,7 +12,7 @@
 
 # Any-CRM
 
-This Client Ralationship Management app is a system built with React.js. It includes a graphic analytics dashboard for company reports.
+This Client Relationship Management app is a system built with React.js. It includes a graphic analytics dashboard for company reports.
 
 Demo: COMING SOON
 
