@@ -5,7 +5,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "moment": "^2.23.0",
     "mongoose": "^5.4.4",
     "react": "^16.7.0",
